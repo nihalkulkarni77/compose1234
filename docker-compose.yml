@@ -5,4 +5,4 @@ services:
     ports:
     - "100:80"
     volumes:
-    - "/mnt/wars/test-repo:/usr/local/apache2/htdocs"
+    - "/home/ec2-user/workspace/httpd/test-repo:/usr/local/apache2/htdocs"
