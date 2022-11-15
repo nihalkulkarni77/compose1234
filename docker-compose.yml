@@ -3,6 +3,6 @@ services:
   httpd-server:
     image: 'httpd'
     ports:
-    - "80:80"
+    - "100:80"
     volumes:
     - "/mnt/wars/test-repo:/usr/local/apache2/htdocs"
